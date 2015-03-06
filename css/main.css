@@ -8,8 +8,6 @@ html {
 
 .box-2 {
   background-color: #1a2230;
-  position: absolute;
-  top: 0em;
   width: 100%;
   text-align: center;
 
@@ -29,5 +27,23 @@ header {
 }
 
 .body {
-  
+  position: relative;
+  width: 320px;
+}
+
+.headl {
+  width: 125px;
+
+}
+
+.headr {
+  width: 125px;
+}
+
+.robohead {
+  width: 320px;
+}
+
+.brain {
+  width: 46px;
 }

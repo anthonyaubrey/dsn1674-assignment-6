@@ -38,6 +38,7 @@ header {
   position: absolute;
   left: 35px;
   bottom: 57px;
+  transition: all 250ms linear;
 }
 
 .headr {
@@ -45,6 +46,7 @@ header {
   position: absolute;
   right: 35px;
   bottom: 57px;
+  transition: all 250ms linear;
 }
 
 .robohead {
@@ -56,4 +58,16 @@ header {
   position: absolute;
   right: 137px;
   bottom: 111px;
+}
+
+.body:hover .headl {
+  left: 15px;
+}
+
+.body:hover .headr {
+  right: 15px;
+}
+
+.brain:hover .brain {
+  top: 10px;
 }
